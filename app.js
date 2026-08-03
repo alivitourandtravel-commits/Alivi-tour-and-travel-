@@ -62,22 +62,22 @@ async function loadNotices(targetId) {
 const FALLBACK_PACKAGES = [
   { title: 'Hajj Package', category: 'hajj', price: 'Rabta karein / Contact us', duration: '30-40 Din / Days',
     desc: 'Mukammal Hajj package, tajurbekar guides ke sath.',
-    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Green_dome%2C_Masjid_e_Nabawi%2C_Medina%2C_KSA.jpg?width=800' },
+    img: 'https://images.unsplash.com/photo-1667456416191-43ba057635c1?auto=format&fit=crop&w=800&q=80' },
   { title: 'Umrah — Economy', category: 'umrah', price: 'PKR 1,80,000', duration: '10 Din / 10 Days',
     desc: 'Sharing accommodation, direct flights, visa aur ziyarat included.',
-    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kaaba_111.jpg?width=800' },
+    img: 'https://images.unsplash.com/photo-1565330770968-0240c0046ce3?auto=format&fit=crop&w=800&q=80' },
   { title: 'Umrah — VIP Deluxe', category: 'umrah', price: 'PKR 3,50,000', duration: '14 Din / 14 Days',
     desc: '5-star hotels, Haram ke qareeb rehaish, private transport.',
-    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg?width=800' },
+    img: 'https://images.unsplash.com/photo-1513072064285-240f87fa81e8?auto=format&fit=crop&w=800&q=80' },
   { title: 'Ziyarat-e-Iraq', category: 'iraq', price: 'PKR 2,20,000', duration: '8 Din / 8 Days',
     desc: 'Karbala, Najaf, Kazmain aur Samarra ki ziyarat.',
-    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_shrine_of_Imam_Hussain_in_Karbala.jpg?width=800' },
+    img: 'https://images.unsplash.com/photo-1539584853854-e196bc0ec4e2?auto=format&fit=crop&w=800&q=80' },
   { title: 'Ziyarat-e-Iran', category: 'iran', price: 'PKR 1,95,000', duration: '7 Din / 7 Days',
     desc: 'Mashhad — Imam Reza (a.s) ki ziyarat, Qom aur Shiraz.',
-    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Golden_Dome_of_Imam_Reza_shrine_by_Omidyadegar_at_night.jpg?width=800' },
+    img: 'https://images.unsplash.com/photo-1539584853854-e196bc0ec4e2?auto=format&fit=crop&w=800&q=80' },
   { title: 'Combined Iran + Iraq Ziyarat', category: 'iran', price: 'PKR 3,10,000', duration: '14 Din / 14 Days',
     desc: 'Dono mulkon ki muqaddas ziyargahon ka mukammal safar.',
-    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shrine_of_Imam_Ali_Najaf_August_2023.jpg?width=800' },
+    img: 'https://images.unsplash.com/photo-1539584853854-e196bc0ec4e2?auto=format&fit=crop&w=800&q=80' },
 ];
 
 function pkgCardHTML(p) {
