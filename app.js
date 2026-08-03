@@ -62,22 +62,22 @@ async function loadNotices(targetId) {
 const FALLBACK_PACKAGES = [
   { title: 'Hajj Package', category: 'hajj', price: 'Rabta karein / Contact us', duration: '30-40 Din / Days',
     desc: 'Mukammal Hajj package, tajurbekar guides ke sath.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/Green_dome%2C_Masjid_e_Nabawi%2C_Medina%2C_KSA.jpg/800px-Green_dome%2C_Masjid_e_Nabawi%2C_Medina%2C_KSA.jpg' },
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Green_dome%2C_Masjid_e_Nabawi%2C_Medina%2C_KSA.jpg?width=800' },
   { title: 'Umrah — Economy', category: 'umrah', price: 'PKR 1,80,000', duration: '10 Din / 10 Days',
     desc: 'Sharing accommodation, direct flights, visa aur ziyarat included.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Kaaba_111.jpg/800px-Kaaba_111.jpg' },
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Kaaba_111.jpg?width=800' },
   { title: 'Umrah — VIP Deluxe', category: 'umrah', price: 'PKR 3,50,000', duration: '14 Din / 14 Days',
     desc: '5-star hotels, Haram ke qareeb rehaish, private transport.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/8/89/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg/800px-The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg' },
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_Ka%27ba%2C_Great_Mosque_of_Mecca%2C_Saudi_Arabia_%284%29.jpg?width=800' },
   { title: 'Ziyarat-e-Iraq', category: 'iraq', price: 'PKR 2,20,000', duration: '8 Din / 8 Days',
     desc: 'Karbala, Najaf, Kazmain aur Samarra ki ziyarat.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/The_shrine_of_Imam_Hussain_in_Karbala.jpg/800px-The_shrine_of_Imam_Hussain_in_Karbala.jpg' },
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/The_shrine_of_Imam_Hussain_in_Karbala.jpg?width=800' },
   { title: 'Ziyarat-e-Iran', category: 'iran', price: 'PKR 1,95,000', duration: '7 Din / 7 Days',
     desc: 'Mashhad — Imam Reza (a.s) ki ziyarat, Qom aur Shiraz.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Golden_Dome_of_Imam_Reza_shrine_by_Omidyadegar_at_night.jpg/800px-Golden_Dome_of_Imam_Reza_shrine_by_Omidyadegar_at_night.jpg' },
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Golden_Dome_of_Imam_Reza_shrine_by_Omidyadegar_at_night.jpg?width=800' },
   { title: 'Combined Iran + Iraq Ziyarat', category: 'iran', price: 'PKR 3,10,000', duration: '14 Din / 14 Days',
     desc: 'Dono mulkon ki muqaddas ziyargahon ka mukammal safar.',
-    img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Shrine_of_Imam_Ali_Najaf_August_2023.jpg/800px-Shrine_of_Imam_Ali_Najaf_August_2023.jpg' },
+    img: 'https://commons.wikimedia.org/wiki/Special:FilePath/Shrine_of_Imam_Ali_Najaf_August_2023.jpg?width=800' },
 ];
 
 function pkgCardHTML(p) {
